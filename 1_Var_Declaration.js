@@ -9,13 +9,13 @@ let var3=12;
 let var4=var2+var3;
 console.log(var4);
 
-let str="nisha";
+let str="karan";
 let newstr=str+str;
 console.log(newstr);
 
 let num=4;
 typeof(num);
-let sr="nisha";
+let sr="karan";
 typeof(sr);
 let ch='a';
 typeof(ch);
