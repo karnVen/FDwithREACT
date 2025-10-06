@@ -1,0 +1,32 @@
+/* Prepared by:
+Name: Karan Singh
+RId: R52376 */
+body{
+    background-color: Burlywood;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+button{
+    height: 100px; 
+    width: 100px; 
+    border: 2px solid gold;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#pink{
+    background-color: pink;
+}
+#green{
+    background-color: green;
+}
+#orange{
+    background-color: orange;
+}

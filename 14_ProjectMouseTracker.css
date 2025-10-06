@@ -1,0 +1,70 @@
+/* Prepared by:
+Name: Karan Singh
+RId: R52376 */
+
+:root {
+    --color-white: rgba(255, 255, 255, 1);
+    --color-black: rgba(0, 0, 0, 1);
+    --color-cream-50: rgba(252, 252, 249, 1);
+    --color-cream-100: rgba(255, 253, 253, 1);
+    --color-gray-200: rgba(245, 245, 245, 1);
+    /* ... other color variables from image ... */
+    --space-16: 16px;
+    --space-32: 32px;
+    --font-size-lg: 1.2rem;
+    --font-size-sm: 0.9rem;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    cursor: none; /* Hides the default mouse cursor */
+}
+
+.follower {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    pointer-events: none; /* Allows clicking through the follower */
+    transform: translate(-50%, -50%); /* Centers the follower on the cursor */
+}
+
+.info-box, .color-box {
+    padding: var(--space-16);
+    margin: var(--space-32) auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.color-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 480px) {
+    .info-box {
+        width: 100%;
+        max-width: 280px;
+        padding: var(--space-16);
+        margin: 0 auto var(--space-32);
+    }
+    .info-box h2 {
+        font-size: var(--font-size-lg);
+    }
+    .color-box {
+        width: 100%;
+        max-width: 180px;
+        height: 80px;
+        margin: var(--space-32) auto;
+    }
+    .color-box p {
+        font-size: var(--font-size-sm);
+    }
+}
