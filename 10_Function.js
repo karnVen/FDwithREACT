@@ -7,7 +7,7 @@ let greet = function(name) {
     return "Hello " + name + "!";
 };
 
-console.log(greet("karnVen")); // Output: Hello Nisha!
+console.log(greet("karnVen")); // Output: Hello karnVen!
 
 // Anonymous function used directly
 setTimeout(function() {

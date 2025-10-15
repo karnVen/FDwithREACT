@@ -17,7 +17,7 @@ console.log(arry);
 
 //add element from the front side of an array
 const ary=[-776,-5.5,"apple","mango",3.409];
-console.log(ary.unshift("nisha"));
+console.log(ary.unshift("karn"));
 console.log(ary);
 
 // for one match
